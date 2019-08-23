@@ -81,6 +81,7 @@ class MixOrMatch {
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
         this.hideCards();
+        this.bgMusic.pause();
     }
     flipCard(card){
         if (this.canFlipCard(card)){
